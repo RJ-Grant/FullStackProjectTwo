@@ -2,6 +2,10 @@ body, html {
   background-color: #2d3c49;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   margin: auto;
 }
@@ -67,6 +71,7 @@ body {
 
   .container p {
     font-size: 4vw;
+    color: #7d97ad;
   }
 
   .fw__proj {
@@ -89,6 +94,10 @@ body {
     width: 100%;
     color: #fff;
     padding: 1em;
+  }
+
+  .description p {
+    word-wrap: break-word;
   }
 }
 
@@ -154,7 +163,8 @@ body {
   }
 
   .container p {
-    font-size: 3vw;
+    font-size: 2.5vw;
+    color: #7d97ad;
   }
 
   .fw__proj {
@@ -175,6 +185,11 @@ body {
     color: #fff;
     padding: 1em;
     vertical-align: middle;
+    overflow: hidden;
+  }
+
+  .description p {
+    word-wrap: break-word;
   }
 }
 
@@ -227,6 +242,11 @@ body {
 
   .proj_pic {
     width: 100%;
+    height: 65%;
+  }
+
+  .container p {
+    color: #7d97ad;
   }
 
   .description {
@@ -234,9 +254,14 @@ body {
     background-color: #000;
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
+    height: 35%;
     color: #fff;
     padding: 0.25em;
     text-align: center;
+  }
+
+  .description p {
+    word-wrap: break-word;
   }
 }
 
